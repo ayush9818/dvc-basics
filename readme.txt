@@ -4,3 +4,6 @@ Steps to initialize dvc
 
 To run pipeline
 1) dvc repro
+2) dvc dag
+
+git repo of course : https://github.com/c17hawke/dvc-basic-demo-AIOps-class

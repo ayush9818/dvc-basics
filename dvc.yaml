@@ -10,5 +10,12 @@ stages:
     deps:
       - artifacts_01.txt
       - stage_02.py
+  stage_03:
+    cmd: python stage_03.py
+    deps:
+      - artifacts_01.txt
+      - stage_03.py
+    outs:
+      - artifacts_02.txt
 
 ## Deps : They are used to track files
